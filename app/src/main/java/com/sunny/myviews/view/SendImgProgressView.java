@@ -109,7 +109,7 @@ public class SendImgProgressView extends View {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 animatorValue = (float) animator.getAnimatedValue();
-//                progress++;
+                progress++;
                 if (progress > 100) {
                     progress = 0;
                 }
